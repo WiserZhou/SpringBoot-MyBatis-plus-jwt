@@ -1,0 +1,118 @@
+2023-09-03 17:24:48.877 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 19 with PID 4252 (C:\Users\86186\Desktop\learn\demo\target\classes started by 86186 in C:\Users\86186\Desktop\learn\demo)
+2023-09-03 17:24:48.879 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:24:48.933 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-03 17:24:48.933 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-03 17:24:49.546 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-03 17:24:49.557 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-09-03 17:24:49.656 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-09-03 17:24:49.827 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-03 17:24:49.864 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-03 17:24:50.149 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-09-03 17:24:50.158 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-03 17:24:50.158 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-03 17:24:50.210 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/jpa] - Initializing Spring embedded WebApplicationContext
+2023-09-03 17:24:50.211 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1277 ms
+2023-09-03 17:24:50.380 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-09-03 17:24:50.664 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-03 17:24:50.707 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-03 17:24:50.708 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2023-09-03 17:24:50.816 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 17:24:50.942 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-03 17:24:51.064 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 17:24:51.239 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-03 17:24:51.243 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 17:24:51.295 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-03 17:24:51.704 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-09-03 17:24:51.739 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/jpa'
+2023-09-03 17:24:51.747 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.392 seconds (process running for 4.235)
+2023-09-03 17:25:04.245 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-09-03 17:25:04.259 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-09-03 17:25:04.280 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 17:25:04.283 [Thread-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-09-03 17:25:04.289 [Thread-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-09-03 17:25:04.371 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 19 with PID 4252 (C:\Users\86186\Desktop\learn\demo\target\classes started by 86186 in C:\Users\86186\Desktop\learn\demo)
+2023-09-03 17:25:04.372 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:25:04.582 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-03 17:25:04.584 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-03 17:25:04.625 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-09-03 17:25:04.652 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-03 17:25:04.655 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-03 17:25:04.712 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-09-03 17:25:04.713 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-03 17:25:04.713 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-03 17:25:04.737 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/jpa] - Initializing Spring embedded WebApplicationContext
+2023-09-03 17:25:04.738 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 363 ms
+2023-09-03 17:25:04.809 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2023-09-03 17:25:04.837 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-03 17:25:04.846 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 17:25:04.846 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-03 17:25:04.857 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 17:25:04.862 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-03 17:25:04.862 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 17:25:04.883 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-03 17:25:05.047 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-09-03 17:25:05.067 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/jpa'
+2023-09-03 17:25:05.074 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 0.74 seconds (process running for 17.563)
+2023-09-03 17:25:05.077 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-09-03 17:25:06.483 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-09-03 17:25:06.536 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-09-03 17:25:06.542 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 17:25:06.543 [Thread-7] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2023-09-03 17:25:06.545 [Thread-7] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2023-09-03 17:25:06.658 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 19 with PID 4252 (C:\Users\86186\Desktop\learn\demo\target\classes started by 86186 in C:\Users\86186\Desktop\learn\demo)
+2023-09-03 17:25:06.659 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:25:07.190 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-03 17:25:07.193 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-09-03 17:25:07.399 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-09-03 17:25:07.593 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-03 17:25:07.595 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-03 17:25:07.889 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-09-03 17:25:07.889 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-03 17:25:07.890 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-03 17:25:07.919 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/jpa] - Initializing Spring embedded WebApplicationContext
+2023-09-03 17:25:07.919 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1257 ms
+2023-09-03 17:25:08.366 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2023-09-03 17:25:08.392 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-03 17:25:08.404 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 17:25:08.405 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-03 17:25:08.412 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 17:25:08.530 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-03 17:25:08.530 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 17:25:08.563 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-03 17:25:08.797 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-09-03 17:25:08.840 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/jpa'
+2023-09-03 17:25:08.847 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.232 seconds (process running for 21.336)
+2023-09-03 17:25:08.850 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-09-03 17:25:18.338 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 17:25:18.339 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2023-09-03 17:25:18.340 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2023-09-03 17:25:22.305 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 19 with PID 4080 (C:\Users\86186\Desktop\learn\demo\target\classes started by 86186 in C:\Users\86186\Desktop\learn\demo)
+2023-09-03 17:25:22.308 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-03 17:25:22.364 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-03 17:25:22.364 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-03 17:25:22.981 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-03 17:25:22.991 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-09-03 17:25:23.084 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-09-03 17:25:23.231 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-03 17:25:23.267 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-03 17:25:23.557 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-09-03 17:25:23.567 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-03 17:25:23.567 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-03 17:25:23.619 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-03 17:25:23.620 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1255 ms
+2023-09-03 17:25:23.804 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-09-03 17:25:24.085 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-03 17:25:24.124 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-03 17:25:24.126 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2023-09-03 17:25:24.225 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 17:25:24.333 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-03 17:25:24.443 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-03 17:25:24.610 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-03 17:25:24.614 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 17:25:24.668 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-03 17:25:25.052 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-09-03 17:25:25.086 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-09-03 17:25:25.094 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.316 seconds (process running for 4.105)
+2023-09-03 17:25:30.669 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-03 17:25:30.672 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-09-03 17:25:30.676 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
