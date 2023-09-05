@@ -1,32 +1,36 @@
 package com.example.demo.entity;
 
-import jakarta.persistence.*;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
-
-@Entity
 @Data
-@Table(name = "work_song")
+@TableName("work_song")
 public class Song {
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+  @TableId(value = "id", type = IdType.AUTO)
   private Integer id;
 
-  @Column(name = "songName")
-  private String name;
+  @TableField(
+      value = "song_name",
+      insertStrategy = FieldStrategy.NOT_NULL,
+      updateStrategy = FieldStrategy.NOT_EMPTY)
+  private String songName;
 
-  @Column(name = "singer")
+  @TableField(
+      value = "singer",
+      insertStrategy = FieldStrategy.NOT_NULL,
+      updateStrategy = FieldStrategy.NOT_EMPTY)
   private String singer;
 
-  @Column(name = "platform")
+  @TableField(value = "platform")
   private String platform;
 
-  @Column(name = "memo")
+  @TableField(value = "memo")
   private String memo;
 
-  @Column(name = "selectNumber")
+  @TableField(value = "select_number")
   private Integer selectNumber;
 
-  @Column(name = "isAccept")
+  @TableField(value = "is_accept")
   private Integer isAccept;
 }

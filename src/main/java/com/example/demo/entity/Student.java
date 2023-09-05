@@ -1,26 +1,36 @@
 package com.example.demo.entity;
 
-import jakarta.persistence.*;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
-@Entity
 @Data
-@Table(name = "work_student")
+@TableName("work_student")
 public class Student {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @TableId(value = "id", type = IdType.AUTO)
   private Integer id;
 
-  @Column(name = "studentIdCard")
+  @TableField(
+      value = "student_id_card",
+      insertStrategy = FieldStrategy.NOT_NULL,
+      updateStrategy = FieldStrategy.NOT_EMPTY)
   private String idCard;
 
-  @Column(name = "studentName")
+  @TableField(
+      value = "student_name",
+      insertStrategy = FieldStrategy.NOT_NULL,
+      updateStrategy = FieldStrategy.NOT_EMPTY)
   private String name;
 
-  @Column(name = "studentClass")
+  @TableField(
+      value = "student_class",
+      insertStrategy = FieldStrategy.NOT_NULL,
+      updateStrategy = FieldStrategy.NOT_EMPTY)
   private String inClass;
 
-  @Column(name = "password")
+  @TableField(
+      value = "password",
+      insertStrategy = FieldStrategy.NOT_NULL,
+      updateStrategy = FieldStrategy.NOT_EMPTY)
   private String password;
 }
